@@ -16,5 +16,4 @@ rm ~/.poshthemes/themes.zip
 chmod u+rw ~/.poshthemes/*.json
 
 # Update .bashrc to initialize Oh My Posh
-echo 'eval "$(oh-my-posh init bash)"' >> ~/.bashrc
-echo 'oh-my-posh --init --shell bash --config ~/.poshthemes/paradox.omp.json' >> ~/.bashrc
+echo 'eval "$(oh-my-posh init bash --config ~/.poshthemes/paradox.omp.json)"' >> ~/.bashrc
