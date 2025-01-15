@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install Oh My Posh
-curl -s https://ohmyposh.dev/install.sh | bash -s -- -d /usr/local/bin
+curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/.local/bin
 
 # Download fonts
 oh-my-posh font install CascadiaCode
