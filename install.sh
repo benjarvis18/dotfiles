@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Install Oh My Posh
+mkdir -p ~/bin
 curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/bin
 
 # Download fonts
